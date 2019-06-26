@@ -1,19 +1,19 @@
-#Go Worker Pool Implementation Example
+# Go Worker Pool Implementation Example
 
 This follows the principle: "Do not communicate by sharing memory; instead, share memory by communicating."
 
 https://golang.org/doc/effective_go.html
 
 
-##Commands:
-###Test:
+## Commands:
+### Test:
 go run main.go
 go test -bench=.
 
-###With Debug:
+### With Debug:
 export DEBUG=true
 
-###References:
+### References:
 https://medium.com/smsjunk/handling-1-million-requests-per-minute-with-golang-f70ac505fcaa
 
 https://medium.com/coinmonks/visually-understanding-worker-pool-48a83b7fc1f5
